@@ -1,0 +1,38 @@
+###REMEMBER###
+
+As a convention, everything in javascript is named using camelCase notation, with the important exeption of the <ReactComponent /> which introduces a variation, starting with an uppercase instead of a lowercase.
+
+----------
+
+###UPDATE ANY SECTION FROM A CERTAIN CITY###
+
+1- update "HTML" content in src/database/(CITY)/text/(SECTION).
+
+CITY example: /losAngeles
+SECTION example: thingsToDoLosAngeles.js
+
+----------
+
+###ADD NEW INNER CONTENT PAGE###
+
+1- create javascript file (ExampleComponenet.js) in src/database/(CITY)/text/(CITY_INNER_CONTENT)/(SECTION_INNER_CONTENT_FOLDER)/(SECTION_INNER_CONTENT)/urls/.
+
+CITY example: /losAngeles
+SECTION example: thingsToDoLosAngeles.js
+CITY_INNER_CONTENT example: /inLosAngeles
+CITY_INNER_CONTENT_FOLDER example: /thingsToDoLosAngeles
+SECTION_INNER_CONTENT example: thingsToDoLosAngeles.js
+
+2- import exampleComponenet from "./urls/ExampleComponent" in src/database/(CITY)/text/(CITY_INNER_CONTENT)/(SECTION_INNER_CONTENT_FOLDER)/(SECTION_INNER_CONTENT)/.
+
+3- add the (export default exampleComponent) from previously created javascript file in (const exampleArray = [example1, example2, example]) in the same file as the step above.
+
+----------
+
+###USE CARTOGRAPHY COMPONENT###
+
+1- create javascript file (geoJSONfile.js) in src/database/(CITY)/gejson, si a good practice to name this file as the url is going to be in, if there are two maps, just name the other with a 2 after.
+
+2- import geoJSONComponenet from "../../../../geojson/geoJSONComponenet" in src/database/(CITY)/text/(CITY_INNER_CONTENT)/(SECTION_INNER_CONTENT_FOLDER)/(SECTION_INNER_CONTENT).
+
+3- use the component inside the "HTML" in the same file as the step above.

@@ -1,0 +1,26 @@
+{
+  "name": "cooppe",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "glamor": "^2.20.40",
+    "glamorous": "^4.13.1",
+    "jump.js": "^1.0.2",
+    "material-ui": "^0.20.1",
+    "pigeon-maps": "^0.9.3",
+    "pigeon-overlay": "^0.2.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-helmet": "^5.2.0",
+    "react-leaflet": "^1.9.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
