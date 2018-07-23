@@ -21,7 +21,7 @@ const FooterContainer = glamorous.div({
   flexDirection: "column",
   justifyContent: "center",
   alignItems: "center",
-  padding: "50px 40px",
+  padding: "50px 2%",
   background:
     "linear-gradient(" +
     muiTheme.palette.primary1Color +

@@ -5,7 +5,7 @@ import React from "react";
 import glamorous from "glamorous";
 
 const ContentContainer = glamorous.div({
-  padding: "10px 40px 20px 40px"
+  padding: "10px 2% 20px 2%"
 });
 
 class Content extends React.Component {

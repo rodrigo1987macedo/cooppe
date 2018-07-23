@@ -8,7 +8,7 @@ import glamorous from "glamorous";
 import Divider from "material-ui/Divider";
 
 const H1 = glamorous.h1({
-  padding: "20px 40px",
+  padding: "20px 2%",
   margin: "64px 0 0 0"
 });
 
