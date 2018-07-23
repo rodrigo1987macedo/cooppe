@@ -40,7 +40,8 @@ const TitleText = glamorous.h1({
   margin: "0 0 0 10px",
   fontFamily: '"Oswald", sans-serif',
   fontWeight: "200",
-  fontSize: "30px"
+  fontSize: "45px",
+  transform: 'translateY(-5px)'
 });
 
 const TitleTextPe = glamorous.span({
@@ -71,7 +72,7 @@ class AppBarIcon extends React.Component {
             this.props.depth === "inner" ? (
               <IconButton
                 style={{
-                  margin: "0 0 0 16px"
+                  margin: "0 0 0 5px"
                 }}
               >
                 <Link to={this.props.return}>
@@ -81,7 +82,7 @@ class AppBarIcon extends React.Component {
             ) : (
               <IconButton
                 style={{
-                  margin: "0 0 0 16px"
+                  margin: "0 0 0 5px"
                 }}
               >
                 <i className="material-icons">bookmark</i>
@@ -105,7 +106,7 @@ class AppBarIcon extends React.Component {
                 <img src={logo} alt="Cooppe logo" height="40" width="40" />
 
                 <TitleText>
-                  Coop<TitleTextPe>pe</TitleTextPe>
+                  coop<TitleTextPe>pe</TitleTextPe>
                 </TitleText>
               </Title>
             </Link>
